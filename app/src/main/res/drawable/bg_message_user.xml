@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Cor de fundo para mensagens do usuário -->
+    <solid android:color="#E3F2FD" /> <!-- Azul mais escuro -->
+
+    <!-- Cantos arredondados -->
+    <corners
+        android:bottomRightRadius="16dp"
+        android:bottomLeftRadius="16dp"
+        android:topLeftRadius="16dp"
+        android:topRightRadius="4dp" /> <!-- Canto superior direito menos arredondado para dar efeito de "balão" -->
+
+    <!-- Margem interna -->
+    <padding
+        android:left="12dp"
+        android:right="12dp"
+        android:top="8dp"
+        android:bottom="8dp" />
+</shape>
